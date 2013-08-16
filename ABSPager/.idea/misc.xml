@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="android" url="file://$PROJECT_DIR$/actionbarsherlock" />
+    <file type="android" url="file://$PROJECT_DIR$/../actionbarsherlock" />
+  </component>
+  <component name="IdProvider" IDEtalkID="D4733C60AAE476617D5E518F1ECE9301" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/actionbarsherlock/pom.xml" />
+        <option value="$USER_HOME$/Android-Universal-Image-Loader/library/pom.xml" />
+        <option value="$PROJECT_DIR$/../actionbarsherlock/pom.xml" />
+        <option value="$PROJECT_DIR$/../Android-Universal-Image-Loader/library/pom.xml" />
+        <option value="$PROJECT_DIR$/../actionbarsherlock/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/actionbarsherlock/pom.xml" />
+        <option value="$PROJECT_DIR$/../Android-Universal-Image-Loader/library/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Android 4.1.2 Platform" project-jdk-type="Android SDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
+

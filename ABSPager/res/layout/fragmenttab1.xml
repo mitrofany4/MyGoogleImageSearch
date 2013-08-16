@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10dp">
+
+    <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_toLeftOf="@+id/btnSearch"
+            android:id="@+id/txtViewSearch"
+            android:hint="Enter search image text"
+            android:layout_marginTop="5dp">
+    </EditText>
+
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnSearch"
+            android:text="Search"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imagesLV"
+            >
+    </Button>
+
+    <ListView android:id="@+id/imagesLV"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:drawSelectorOnTop="false"
+              android:layout_below="@+id/txtViewSearch"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="15dp"
+              android:layout_above="@+id/push_btn"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить в избранное"
+            android:id="@+id/push_btn"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
