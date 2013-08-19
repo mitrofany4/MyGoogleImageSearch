@@ -20,8 +20,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$USER_HOME$/Android-Universal-Image-Loader/library/pom.xml" />
         <option value="$PROJECT_DIR$/actionbarsherlock/pom.xml" />
-        <option value="$PROJECT_DIR$/../Android-Universal-Image-Loader/library/pom.xml" />
       </set>
     </option>
   </component>

@@ -16,6 +16,8 @@ import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+
+import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.app.SherlockListFragment;
@@ -58,11 +60,6 @@ public class FragmentTab1 extends SherlockFragment {
         activity = getSherlockActivity();
 
     }
-
-    @Override
-	public SherlockFragmentActivity getSherlockActivity() {
-		return super.getSherlockActivity();
-	}
 
 	@Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {
@@ -231,13 +228,5 @@ public class FragmentTab1 extends SherlockFragment {
 
 
     }
-
-
-    void showDialog(String image_url) {
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        DialogFragment newFragment = MyDialogFragment.newInstance(image_url);
-        newFragment.show(ft, "dialog");
-    }
-
 
 }

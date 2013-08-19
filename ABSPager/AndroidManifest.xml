@@ -10,13 +10,16 @@
     <application
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Sherlock.Light" >
+            android:theme="@style/Theme.Sherlock.Light"
+            >
         <activity
                 android:name=".MainActivity"
+                android:launchMode="singleTask"
                 android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"
-                        android:screenOrientation="portrait"/>
+
+                        android:configChanges="keyboardHidden|orientation|screenSize"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

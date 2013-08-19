@@ -16,7 +16,20 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7728b15e-c79d-47bc-a7e8-23fb82a18a8e" name="Default" comment="" />
+    <list default="true" id="7728b15e-c79d-47bc-a7e8-23fb82a18a8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ABSPager.iml" afterPath="$PROJECT_DIR$/ABSPager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java" afterPath="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" afterPath="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/maksym/ABSPager/LazyAdapter.java" afterPath="$PROJECT_DIR$/src/com/maksym/ABSPager/LazyAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java" afterPath="$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ABSPager.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,68 +54,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java" line="226" class="com.maksym.ABSPager.FragmentTab1" package="com.maksym.ABSPager">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" line="51" class="com.maksym.ABSPager.FragmentTab2" package="com.maksym.ABSPager">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" line="97" class="com.maksym.ABSPager.FragmentTab2.getFavImageTask" package="com.maksym.ABSPager">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FavListViewAdapter.java" line="92" class="com.maksym.ABSPager.FavListViewAdapter" package="com.maksym.ABSPager">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -139,7 +91,38 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java" line="223" class="com.maksym.ABSPager.FragmentTab1" package="com.maksym.ABSPager">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" line="49" class="com.maksym.ABSPager.FragmentTab2" package="com.maksym.ABSPager">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -149,31 +132,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FragmentTab1.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FragmentTab1.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="30" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-3.835759" vertical-offset="2040" max-vertical-offset="3150">
+            <state line="229" column="5" selection-start="7226" selection-end="7226" vertical-scroll-proportion="0.0" vertical-offset="3420" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="ViewPagerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/ViewPagerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="480">
+            <state line="6" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -182,16 +153,16 @@
       <file leaf-file-name="FragmentTab2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1860">
+            <state line="68" column="10" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1830">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UILApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/UILApplication.java">
+      <file leaf-file-name="FavListViewAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FavListViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="25" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="735">
+            <state line="92" column="0" selection-start="3141" selection-end="3141" vertical-scroll-proportion="0.0" vertical-offset="1365" max-vertical-offset="1815">
               <folding />
             </state>
           </provider>
@@ -200,34 +171,16 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1410">
+            <state line="58" column="73" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyDialogFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/MyDialogFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="5" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1485">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="36" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListViewImageAdapter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ListViewImageAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="23" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2325">
+            <state line="137" column="93" selection-start="5263" selection-end="5263" vertical-scroll-proportion="0.91722596" vertical-offset="1285" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -251,22 +204,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" />
         <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/GoogleImageBean.java" />
         <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/DbOpenHelper.java" />
         <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/DBAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/imagefragment_dialog.xml" />
         <option value="$USER_HOME$/Android-Universal-Image-Loader/sample/src/com/nostra13/example/universalimageloader/UILApplication.java" />
         <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/UILApplication.java" />
-        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/LazyAdapter.java" />
         <option value="$USER_HOME$/Android-Universal-Image-Loader/library/test/com/nostra13/universalimageloader/core/assist/ImageSizeTest.java" />
         <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/MyDialogFragment.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java" />
         <option value="$PROJECT_DIR$/../actionbarsherlock/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/LazyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java" />
+        <option value="$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -326,7 +279,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -334,30 +286,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ABSPager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ABSPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actionbarsherlock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ABSPager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actionbarsherlock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -440,11 +368,12 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -452,7 +381,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android-Universal-Image-Loader/library" />
     <property name="project.structure.side.proportion" value="0.35747665" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HT36NW906185" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -624,14 +553,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3944591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32849604" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3933589" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -640,7 +570,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2294964" sideWeight="0.67150396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22910863" sideWeight="0.6066411" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -651,11 +581,10 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22163588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22163588" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -663,59 +592,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="second commit" />
+    <MESSAGE value="fixed bugs with checkbox and dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs with checkbox and dialog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -725,116 +607,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/imagefragment_dialog.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="287" column="0" selection-start="9890" selection-end="9890" vertical-scroll-proportion="0.0" vertical-offset="3787" max-vertical-offset="7470" />
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="0" selection-start="5539" selection-end="5539" vertical-scroll-proportion="0.33178654" vertical-offset="1972" max-vertical-offset="4065" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="4112" selection-end="4112" vertical-scroll-proportion="0.33178654" vertical-offset="1102" max-vertical-offset="9165" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/widget/CompoundButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="4935" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/widget/AbsListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2441" column="0" selection-start="84034" selection-end="84034" vertical-scroll-proportion="0.0" vertical-offset="35452" max-vertical-offset="97965" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/widget/ListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="814" column="0" selection-start="28611" selection-end="28611" vertical-scroll-proportion="0.0" vertical-offset="11482" max-vertical-offset="53910" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/sdk/sources/android-16/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4105" column="0" selection-start="154638" selection-end="154638" vertical-scroll-proportion="0.0" vertical-offset="60127" max-vertical-offset="267960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/LazyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="30" selection-start="2265" selection-end="2265" vertical-scroll-proportion="2.3076923" vertical-offset="0" max-vertical-offset="2850">
+        <state line="141" column="5" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.25311205" vertical-offset="1648" max-vertical-offset="2535">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#3350#3380#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Android-Universal-Image-Loader/library/test/com/nostra13/universalimageloader/core/assist/ImageSizeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/UILApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="202" selection-end="202" vertical-scroll-proportion="0.020920502" vertical-offset="75" max-vertical-offset="1605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../actionbarsherlock/src/com/actionbarsherlock/widget/SearchView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="30" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.6405694" vertical-offset="0" max-vertical-offset="26535" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Android-Universal-Image-Loader/library/test/com/nostra13/universalimageloader/core/download/BaseImageDownloaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="88" selection-end="88" vertical-scroll-proportion="0.053380784" vertical-offset="0" max-vertical-offset="1110" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/ViewPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="65" selection-end="65" vertical-scroll-proportion="0.053380784" vertical-offset="0" max-vertical-offset="690">
-          <folding />
+        <state line="12" column="13" selection-start="381" selection-end="381" vertical-scroll-proportion="-0.15145229" vertical-offset="253" max-vertical-offset="735">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/MyDialogFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FavListViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="5" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="454">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../actionbarsherlock/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="92" column="0" selection-start="3141" selection-end="3141" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/UILApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="25" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="23" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="2325">
+        <state line="16" column="47" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="30" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-3.835759" vertical-offset="2040" max-vertical-offset="3150">
+        <state line="229" column="5" selection-start="7226" selection-end="7226" vertical-scroll-proportion="0.0" vertical-offset="2474" max-vertical-offset="2955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/FragmentTab2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="10" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.0" vertical-offset="1004" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/ViewPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="73" selection-start="1980" selection-end="1980" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/maksym/ABSPager/ListViewImageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="93" selection-start="5263" selection-end="5263" vertical-scroll-proportion="0.91722596" vertical-offset="1285" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
@@ -891,7 +761,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ABSPager</last-edited>
+          <last-edited>library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -915,7 +785,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
+          <last-edited>classes</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

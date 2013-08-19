@@ -33,6 +33,7 @@ public class LazyAdapter extends EndlessAdapter {
     private RotateAnimation rotate=null;
     private View pendingView=null;
     private ArrayList<GoogleImageBean> tempList = new ArrayList<GoogleImageBean>();
+    private ArrayList<GoogleImageBean> dlist;
     private int mLastOffset = 0;
     static final int BATCH_SIZE = 8;
     String strSearch;
@@ -50,6 +51,7 @@ public class LazyAdapter extends EndlessAdapter {
         rotate.setDuration(600);
         rotate.setRepeatMode(Animation.RESTART);
         rotate.setRepeatCount(Animation.INFINITE);
+        dlist=list;
     }
 
     @Override

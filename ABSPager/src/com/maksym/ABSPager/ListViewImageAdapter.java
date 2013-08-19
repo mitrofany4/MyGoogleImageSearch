@@ -80,37 +80,32 @@ public class ListViewImageAdapter extends ArrayAdapter<GoogleImageBean> {
     	final ViewHolder holder;
         final int _position=position;
 		if(convertView==null){
-			vi = inflater.inflate(R.layout.searchlistview_row, null);
+			vi = inflater.inflate(R.layout.searchlistview_row, parent, false);
 			holder=new ViewHolder();
-			
 			holder.imgViewImage=(ImageView)vi.findViewById(R.id.elImageView);
-
-            holder.imgViewImage
-                    .setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            showDialog(listImages.get(_position).getUrl());
-                        }
-                    });
 			holder.txtViewTitle=(TextView)vi.findViewById(R.id.titleTextView);
 			holder.favCheckBox=(CheckBox) vi.findViewById(R.id.likeChBox);
-            holder.favCheckBox
-                    .setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-
-                        @Override
-                        public void onCheckedChanged(CompoundButton buttonView,
-                                                     boolean isChecked) {
-                            GoogleImageBean element = listImages.get(_position);
-                            element.setFavorite(buttonView.isChecked());
-                            notifyDataSetChanged();
-
-                        }
-                    });
 			vi.setTag(holder);
 		}
 		else
 			holder=(ViewHolder)vi.getTag();
-		
+        holder.favCheckBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GoogleImageBean element = listImages.get(_position);
+                element.setFavorite(holder.favCheckBox.isChecked());
+                notifyDataSetChanged();
+            }
+        });
+
+        holder.imgViewImage
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        showDialog(listImages.get(_position).getUrl());
+                    }
+                });
+
 		GoogleImageBean imageBean = (GoogleImageBean) listImages.get(position);
 		imageLoader.displayImage(imageBean.getThumbUrl(), holder.imgViewImage, options, animateFirstListener);
 		holder.txtViewTitle.setText(Html.fromHtml(imageBean.getTitle()));
@@ -147,4 +142,6 @@ public class ListViewImageAdapter extends ArrayAdapter<GoogleImageBean> {
 
 
     }
+
+
 }

@@ -32,13 +32,11 @@ public class FragmentTab2 extends SherlockListFragment {
     ArrayList<GoogleImageBean> favimages;
 
     getFavImageTask task;
-		
-	@Override
-	public SherlockFragmentActivity getSherlockActivity() {
-		return super.getSherlockActivity();
-	}
 
-	@Override
+    public FragmentTab2() {
+    }
+
+    @Override
 	public void onViewCreated(View view, Bundle savedInstanceState) {
 		super.onViewCreated(view, savedInstanceState);
 
@@ -68,7 +66,7 @@ public class FragmentTab2 extends SherlockListFragment {
     @Override
 	public void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
-		setUserVisibleHint(true);
+		//setUserVisibleHint(true);
 	}
 
     public class getFavImageTask extends AsyncTask<Void,Void,Void> {

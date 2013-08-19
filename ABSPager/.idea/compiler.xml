@@ -8,6 +8,8 @@
       <directory url="file://$USER_HOME$/cwac-endless/gen" includeSubdirectories="true" />
       <directory url="file://$USER_HOME$/Android-Universal-Image-Loader/library/gen/com/nostra13/universalimageloader/BuildConfig.java" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/../actionbarsherlock/target/generated-sources/r" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../Android-Universal-Image-Loader/library/gen/com/nostra13/universalimageloader/BuildConfig.java" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../Android-Universal-Image-Loader/library/gen" includeSubdirectories="true" />
       <directory url="file://$USER_HOME$/Android-Universal-Image-Loader/library/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
@@ -31,7 +33,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="actionbarsherlock" />
-        <module name="universal-image-loader" />
         <module name="universal-image-loader (2)" />
       </profile>
     </annotationProcessing>
